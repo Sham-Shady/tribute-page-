@@ -1,0 +1,84 @@
+html {
+background-color: #F1C40F;
+margin: 0;
+padding: 0;
+}
+p {
+  font-family: 'Tahoma', sans-serif ;
+  font-size: 105%;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+h1 {
+  font-family: 'MV Boli', sans-serif ;
+  font-size: 140%;
+}
+
+ul {
+  font-family: 'Tahoma', sans-serif ;
+  font-size: 105%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em;
+  background-color: #F39C12;
+  color: #DDD;
+}
+nav a {
+  color: #CCC;
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #FFF;
+}
+li a:hover {
+  color: #FFF;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.grid-container {
+  width: 67%;
+  margin: 0 auto;
+}
+.grid-item {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 2em;
+}
+.grid-item img {
+  transition: all .3s ease-out;
+}
+.grid-item img:hover {
+  transform: scale(1.4);
+  border-radius:50%;
+  transition: 1s ease;
+  box-shadow: 0 0 0 10px #000000;
+  transition: .5s ease;
+}
+
+footer {
+    background-color: #F39C12;
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    font-size: .7rem;
+}
